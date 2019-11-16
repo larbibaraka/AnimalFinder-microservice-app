@@ -1,0 +1,22 @@
+{
+  "name": "serviceregistry",
+  "version": "1.0.0",
+  "description": "the service registry for app AnimalFinder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larbibaraka/AnimalFinder-microservice-app.git"
+  },
+  "keywords": [
+    "Service-registry-pattern"
+  ],
+  "author": "Baraka Larbi, laridev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larbibaraka/AnimalFinder-microservice-app/issues"
+  },
+  "homepage": "https://github.com/larbibaraka/AnimalFinder-microservice-app#readme"
+}
