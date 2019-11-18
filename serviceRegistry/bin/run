@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+// call node http module
+const http =  require('http');
+// call the config
+const config = require('../config')[process.env.NODE_ENV || 'development' ];
+
+const log = config.log();
+
+const service =  require('../src/service')(config);
+
+const server = http.createServer(service);
+
+server.listen(process.env.PORT || 3000);
+
+server.on('listening', ()=>{
+    log.info(
+        `Service Registry is worknig on port ${server.address().port} in ${service.get('env') mode.}`
+    )
+})
+
