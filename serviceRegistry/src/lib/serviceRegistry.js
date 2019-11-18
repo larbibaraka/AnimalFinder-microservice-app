@@ -1,4 +1,4 @@
-class serviceRegistry {
+class ServiceRegistry {
   constructor(log) {
     this.log = log;
     this.services = {};
@@ -31,4 +31,4 @@ class serviceRegistry {
   }
 }
 
-module.exports = serviceRegistry;
+module.exports = ServiceRegistry;
