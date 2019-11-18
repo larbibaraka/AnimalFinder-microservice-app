@@ -4,6 +4,7 @@
   "description": "the service registry for app AnimalFinder",
   "main": "index.js",
   "scripts": {
+    "start" ; "node bin/run | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
