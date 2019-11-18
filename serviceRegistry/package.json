@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/larbibaraka/AnimalFinder-microservice-app/issues"
   },
-  "homepage": "https://github.com/larbibaraka/AnimalFinder-microservice-app#readme"
+  "homepage": "https://github.com/larbibaraka/AnimalFinder-microservice-app#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
 }
